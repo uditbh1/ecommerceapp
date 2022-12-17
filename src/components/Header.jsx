@@ -242,7 +242,7 @@ export default function Header() {
             <StyledLink to="/">Ecomm</StyledLink>
           </Typography>
           <SearchBar />
-          <Box flexBasis={600} sx={{ display: { xs: "none", md: "flex" } }}>
+          <Box flexBasis={500} sx={{ display: { xs: "flex", md: "flex" } }}>
             <IconButton
               onClick={navigateToCart}
               size="large"
